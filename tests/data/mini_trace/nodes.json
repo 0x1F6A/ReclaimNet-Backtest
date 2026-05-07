@@ -1,0 +1,5 @@
+[
+ {"node_id": "node-001", "address": "127.0.0.1:50061", "building": "BuildingA", "switch_id": "sw-A", "gpu_count": 1, "total_vram_bytes": 25769803776, "link_capacity_bps": 1000000000, "cuda_capability": 8.6, "registered_at_ns": 1772290800000000000},
+ {"node_id": "node-002", "address": "127.0.0.1:50062", "building": "BuildingA", "switch_id": "sw-A", "gpu_count": 1, "total_vram_bytes": 25769803776, "link_capacity_bps": 1000000000, "cuda_capability": 8.6, "registered_at_ns": 1772290800000000000},
+ {"node_id": "node-003", "address": "127.0.0.1:50063", "building": "BuildingB", "switch_id": "sw-B", "gpu_count": 1, "total_vram_bytes": 25769803776, "link_capacity_bps": 1000000000, "cuda_capability": 8.6, "registered_at_ns": 1772290800000000000}
+]
