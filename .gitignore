@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+/data/
+/datasets/
+/traces/
+/trace_data/
+/cache/
+/runs/
+/build/
+/build-*/
+/cmake-build-*/
