@@ -1,0 +1,392 @@
+{
+  "_template": true,
+  "_template_instructions": "Fill all physical host, SSH user and dedicated test network interface placeholders; then set _template=false.",
+  "coordinator": {
+    "host": "REPLACE_COORDINATOR_IP",
+    "ssh": "USER@REPLACE_COORDINATOR_IP",
+    "address": "REPLACE_COORDINATOR_IP:50051"
+  },
+  "nodes": [
+    {
+      "trace_node": "node-001",
+      "host": "REPLACE_NODE_001_IP",
+      "ssh": "USER@REPLACE_NODE_001_IP",
+      "node_daemon_address": "REPLACE_NODE_001_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-002",
+      "host": "REPLACE_NODE_002_IP",
+      "ssh": "USER@REPLACE_NODE_002_IP",
+      "node_daemon_address": "REPLACE_NODE_002_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-003",
+      "host": "REPLACE_NODE_003_IP",
+      "ssh": "USER@REPLACE_NODE_003_IP",
+      "node_daemon_address": "REPLACE_NODE_003_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-004",
+      "host": "REPLACE_NODE_004_IP",
+      "ssh": "USER@REPLACE_NODE_004_IP",
+      "node_daemon_address": "REPLACE_NODE_004_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-005",
+      "host": "REPLACE_NODE_005_IP",
+      "ssh": "USER@REPLACE_NODE_005_IP",
+      "node_daemon_address": "REPLACE_NODE_005_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-006",
+      "host": "REPLACE_NODE_006_IP",
+      "ssh": "USER@REPLACE_NODE_006_IP",
+      "node_daemon_address": "REPLACE_NODE_006_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-007",
+      "host": "REPLACE_NODE_007_IP",
+      "ssh": "USER@REPLACE_NODE_007_IP",
+      "node_daemon_address": "REPLACE_NODE_007_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-008",
+      "host": "REPLACE_NODE_008_IP",
+      "ssh": "USER@REPLACE_NODE_008_IP",
+      "node_daemon_address": "REPLACE_NODE_008_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-009",
+      "host": "REPLACE_NODE_009_IP",
+      "ssh": "USER@REPLACE_NODE_009_IP",
+      "node_daemon_address": "REPLACE_NODE_009_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-010",
+      "host": "REPLACE_NODE_010_IP",
+      "ssh": "USER@REPLACE_NODE_010_IP",
+      "node_daemon_address": "REPLACE_NODE_010_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-011",
+      "host": "REPLACE_NODE_011_IP",
+      "ssh": "USER@REPLACE_NODE_011_IP",
+      "node_daemon_address": "REPLACE_NODE_011_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-012",
+      "host": "REPLACE_NODE_012_IP",
+      "ssh": "USER@REPLACE_NODE_012_IP",
+      "node_daemon_address": "REPLACE_NODE_012_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-013",
+      "host": "REPLACE_NODE_013_IP",
+      "ssh": "USER@REPLACE_NODE_013_IP",
+      "node_daemon_address": "REPLACE_NODE_013_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-014",
+      "host": "REPLACE_NODE_014_IP",
+      "ssh": "USER@REPLACE_NODE_014_IP",
+      "node_daemon_address": "REPLACE_NODE_014_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-015",
+      "host": "REPLACE_NODE_015_IP",
+      "ssh": "USER@REPLACE_NODE_015_IP",
+      "node_daemon_address": "REPLACE_NODE_015_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-016",
+      "host": "REPLACE_NODE_016_IP",
+      "ssh": "USER@REPLACE_NODE_016_IP",
+      "node_daemon_address": "REPLACE_NODE_016_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-017",
+      "host": "REPLACE_NODE_017_IP",
+      "ssh": "USER@REPLACE_NODE_017_IP",
+      "node_daemon_address": "REPLACE_NODE_017_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-018",
+      "host": "REPLACE_NODE_018_IP",
+      "ssh": "USER@REPLACE_NODE_018_IP",
+      "node_daemon_address": "REPLACE_NODE_018_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-019",
+      "host": "REPLACE_NODE_019_IP",
+      "ssh": "USER@REPLACE_NODE_019_IP",
+      "node_daemon_address": "REPLACE_NODE_019_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-020",
+      "host": "REPLACE_NODE_020_IP",
+      "ssh": "USER@REPLACE_NODE_020_IP",
+      "node_daemon_address": "REPLACE_NODE_020_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-021",
+      "host": "REPLACE_NODE_021_IP",
+      "ssh": "USER@REPLACE_NODE_021_IP",
+      "node_daemon_address": "REPLACE_NODE_021_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-022",
+      "host": "REPLACE_NODE_022_IP",
+      "ssh": "USER@REPLACE_NODE_022_IP",
+      "node_daemon_address": "REPLACE_NODE_022_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-023",
+      "host": "REPLACE_NODE_023_IP",
+      "ssh": "USER@REPLACE_NODE_023_IP",
+      "node_daemon_address": "REPLACE_NODE_023_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-024",
+      "host": "REPLACE_NODE_024_IP",
+      "ssh": "USER@REPLACE_NODE_024_IP",
+      "node_daemon_address": "REPLACE_NODE_024_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-025",
+      "host": "REPLACE_NODE_025_IP",
+      "ssh": "USER@REPLACE_NODE_025_IP",
+      "node_daemon_address": "REPLACE_NODE_025_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-026",
+      "host": "REPLACE_NODE_026_IP",
+      "ssh": "USER@REPLACE_NODE_026_IP",
+      "node_daemon_address": "REPLACE_NODE_026_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-027",
+      "host": "REPLACE_NODE_027_IP",
+      "ssh": "USER@REPLACE_NODE_027_IP",
+      "node_daemon_address": "REPLACE_NODE_027_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-028",
+      "host": "REPLACE_NODE_028_IP",
+      "ssh": "USER@REPLACE_NODE_028_IP",
+      "node_daemon_address": "REPLACE_NODE_028_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-029",
+      "host": "REPLACE_NODE_029_IP",
+      "ssh": "USER@REPLACE_NODE_029_IP",
+      "node_daemon_address": "REPLACE_NODE_029_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-030",
+      "host": "REPLACE_NODE_030_IP",
+      "ssh": "USER@REPLACE_NODE_030_IP",
+      "node_daemon_address": "REPLACE_NODE_030_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-031",
+      "host": "REPLACE_NODE_031_IP",
+      "ssh": "USER@REPLACE_NODE_031_IP",
+      "node_daemon_address": "REPLACE_NODE_031_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-032",
+      "host": "REPLACE_NODE_032_IP",
+      "ssh": "USER@REPLACE_NODE_032_IP",
+      "node_daemon_address": "REPLACE_NODE_032_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-033",
+      "host": "REPLACE_NODE_033_IP",
+      "ssh": "USER@REPLACE_NODE_033_IP",
+      "node_daemon_address": "REPLACE_NODE_033_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-034",
+      "host": "REPLACE_NODE_034_IP",
+      "ssh": "USER@REPLACE_NODE_034_IP",
+      "node_daemon_address": "REPLACE_NODE_034_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-035",
+      "host": "REPLACE_NODE_035_IP",
+      "ssh": "USER@REPLACE_NODE_035_IP",
+      "node_daemon_address": "REPLACE_NODE_035_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-036",
+      "host": "REPLACE_NODE_036_IP",
+      "ssh": "USER@REPLACE_NODE_036_IP",
+      "node_daemon_address": "REPLACE_NODE_036_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-037",
+      "host": "REPLACE_NODE_037_IP",
+      "ssh": "USER@REPLACE_NODE_037_IP",
+      "node_daemon_address": "REPLACE_NODE_037_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-038",
+      "host": "REPLACE_NODE_038_IP",
+      "ssh": "USER@REPLACE_NODE_038_IP",
+      "node_daemon_address": "REPLACE_NODE_038_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-039",
+      "host": "REPLACE_NODE_039_IP",
+      "ssh": "USER@REPLACE_NODE_039_IP",
+      "node_daemon_address": "REPLACE_NODE_039_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-040",
+      "host": "REPLACE_NODE_040_IP",
+      "ssh": "USER@REPLACE_NODE_040_IP",
+      "node_daemon_address": "REPLACE_NODE_040_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-041",
+      "host": "REPLACE_NODE_041_IP",
+      "ssh": "USER@REPLACE_NODE_041_IP",
+      "node_daemon_address": "REPLACE_NODE_041_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-042",
+      "host": "REPLACE_NODE_042_IP",
+      "ssh": "USER@REPLACE_NODE_042_IP",
+      "node_daemon_address": "REPLACE_NODE_042_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-043",
+      "host": "REPLACE_NODE_043_IP",
+      "ssh": "USER@REPLACE_NODE_043_IP",
+      "node_daemon_address": "REPLACE_NODE_043_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-044",
+      "host": "REPLACE_NODE_044_IP",
+      "ssh": "USER@REPLACE_NODE_044_IP",
+      "node_daemon_address": "REPLACE_NODE_044_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-045",
+      "host": "REPLACE_NODE_045_IP",
+      "ssh": "USER@REPLACE_NODE_045_IP",
+      "node_daemon_address": "REPLACE_NODE_045_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-046",
+      "host": "REPLACE_NODE_046_IP",
+      "ssh": "USER@REPLACE_NODE_046_IP",
+      "node_daemon_address": "REPLACE_NODE_046_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-047",
+      "host": "REPLACE_NODE_047_IP",
+      "ssh": "USER@REPLACE_NODE_047_IP",
+      "node_daemon_address": "REPLACE_NODE_047_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-048",
+      "host": "REPLACE_NODE_048_IP",
+      "ssh": "USER@REPLACE_NODE_048_IP",
+      "node_daemon_address": "REPLACE_NODE_048_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-049",
+      "host": "REPLACE_NODE_049_IP",
+      "ssh": "USER@REPLACE_NODE_049_IP",
+      "node_daemon_address": "REPLACE_NODE_049_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-050",
+      "host": "REPLACE_NODE_050_IP",
+      "ssh": "USER@REPLACE_NODE_050_IP",
+      "node_daemon_address": "REPLACE_NODE_050_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-051",
+      "host": "REPLACE_NODE_051_IP",
+      "ssh": "USER@REPLACE_NODE_051_IP",
+      "node_daemon_address": "REPLACE_NODE_051_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-052",
+      "host": "REPLACE_NODE_052_IP",
+      "ssh": "USER@REPLACE_NODE_052_IP",
+      "node_daemon_address": "REPLACE_NODE_052_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    },
+    {
+      "trace_node": "node-053",
+      "host": "REPLACE_NODE_053_IP",
+      "ssh": "USER@REPLACE_NODE_053_IP",
+      "node_daemon_address": "REPLACE_NODE_053_IP:50052",
+      "network_interface": "REPLACE_TEST_NIC"
+    }
+  ],
+  "paths": {
+    "reclaimnet": "/opt/reclaimnet",
+    "job_binary": "/opt/rnbt/bin/rnbt-job",
+    "load_binary": "/opt/rnbt/bin/rnbt-load",
+    "state_root": "/var/lib/rnbt/state",
+    "log_dir": "/var/lib/rnbt/logs",
+    "checkpoint_dir": "/var/lib/rnbt/checkpoints",
+    "coordinator_data": "/var/lib/rnbt/coordinator"
+  },
+  "local": false
+}
