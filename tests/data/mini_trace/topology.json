@@ -1,0 +1,7 @@
+{"directed": false, "links": [
+ {"src": "node-001", "dst": "sw-A", "bandwidth_bps": 1000000000, "latency_us": 3.0, "level": "IntraRack"},
+ {"src": "node-002", "dst": "sw-A", "bandwidth_bps": 1000000000, "latency_us": 3.0, "level": "IntraRack"},
+ {"src": "node-003", "dst": "sw-B", "bandwidth_bps": 1000000000, "latency_us": 3.0, "level": "IntraRack"},
+ {"src": "sw-A", "dst": "sw-core", "bandwidth_bps": 10000000000, "latency_us": 40.0, "level": "CrossBuilding"},
+ {"src": "sw-B", "dst": "sw-core", "bandwidth_bps": 10000000000, "latency_us": 40.0, "level": "CrossBuilding"}
+]}
