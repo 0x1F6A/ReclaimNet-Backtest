@@ -1,0 +1,20 @@
+{
+  "run_id": "replay-window-001",
+  "trace": "/data/rnbt/input_trace",
+  "testbed": "examples/testbed.template.json",
+  "mode": "jobs",
+  "window": {
+    "from": "2026-03-15T12:00:00+08:00",
+    "to": "2026-03-15T12:10:00+08:00"
+  },
+  "workload_profiles": "/data/rnbt/profiles",
+  "replay_link_capacity": true,
+  "timing": {
+    "start_delay_s": 30,
+    "reset_budget_s": 180,
+    "compress_idle": false,
+    "jobs_warmup_s": 0,
+    "drain_s": 0
+  },
+  "output": "/data/rnbt/runs/replay-window-001"
+}
